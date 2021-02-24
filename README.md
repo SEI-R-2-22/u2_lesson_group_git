@@ -21,9 +21,20 @@ Take a second to think about how we've been receiving and submitting homework in
 
 In actuality, we've been doing `git collaboration` all along! In the case of our homework, we've been using the `fork and pull request` method of collaboration.
 
-We'll be using the central repository `feature branch` method of collaboration for our group projects in this course. While this is the way we'll be collaborating in this course, there are other methods out there. Think of this method as our organization's style guide for collaboration.
-___
+We'll be using the central repository `feature branch` method of collaboration for our group projects in this course. While this is the way we'll be collaborating in this course, there are other methods out there. Think of this method as our organization's style guide for collaboration. 
 
+___
+### Adding Collaborators
+When starting a new group project with a `feature branch workflow`, what we'll need to do first is add collaborators to the project.
+
+To add collaborators on a repository:
+- Click on the `Settings` tab at the top right of the page
+- Within settings, click on the section titled `Manage Access`
+- You'll see a button for inviting people and organizations
+- Click on it and enter in the collaborators you'd like to work with on the project
+- Once you invite them, they'll need to respond to the invite email sent to their email associated with their Github account
+
+___
 ### Feature Branch Workflow
  
 ![](https://zepel.io/blog/content/images/2020/05/Feature-Branch-git-workflow-4.png)
@@ -40,7 +51,7 @@ Let's take 5 minutes to read about [Checkout](https://www.atlassian.com/git/tuto
 
 So to break things down, let's cover the steps of how we'll be using this workflow for our group projects:
 - Your group will choose a git czar/master to manage pull requests made on the central repository
-- Once the central project repository has been created, you'll each `clone` the repository - make sure NOT to `fork` it
+- Once the central project repository has been created, you'll need to add everone working on the project as a collaborator and you'll each `clone` the repository. Make sure NOT to `fork` it
 - Next, within your local directory, you'll create a new branch for the project that you'll be working on, separate from `main`
   ```js
   git checkout -b my-branch
@@ -101,7 +112,7 @@ The `=======` line is the “center” of the conflict. All the content between 
 Alternatively, all content between the center and `>>>>>>> feature-branch` is content that is present in our merging branch.
 
 To resolve our merge conflict, we can:
-- **manually remove the unnecessary part from any one of the branches**, and only consider the content of the branch that is important for further use, along with removing the “conflict dividers” from our file. 
+- **Manually remove the unnecessary part from any one of the branches**, and only consider the content of the branch that is important for further use, along with removing the “conflict dividers” from our file. 
 - Click on one of the options for accepting changes
   - Choose Current Change if you don't want the new changes causing the conflict
   - Choose Incoming Change if you do want the new changes that are causing the conflict
