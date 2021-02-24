@@ -21,7 +21,7 @@ Take a second to think about how we've been receiving and submitting homework in
 
 In actuality, we've been doing `git collaboration` all along! In the case of our homework, we've been using the `fork and pull request` method of collaboration.
 
-We'll be using the shared repository `feature branch` method of collaboration in this course. While this is the way we'll be collaborating in this course, there are other methods out there. Think of this method as our organization's style guide for collaboration.
+We'll be using the central repository `feature branch` method of collaboration for our group projects in this course. While this is the way we'll be collaborating in this course, there are other methods out there. Think of this method as our organization's style guide for collaboration.
 ___
 
 ### Feature Branch Workflow
