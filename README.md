@@ -42,16 +42,16 @@ So to break things down, let's cover the steps of how we'll be using this workfl
 - Your group will choose a git czar/master to manage pull requests made on the central repository
 - Once the central project repository has been created, you'll each `clone` the repository - make sure NOT to `fork` it
 - Next, within your local directory, you'll create a new branch for the project that you'll be working on, separate from `main`
- ```js
- git checkout -b my-branch
- ```
+  ```js
+  git checkout -b my-branch
+  ```
 - From there, you'll treat that branch as if it were your own project, adding commits and pushing your code to it
 - Finally, when you've completed a feature and are ready to `merge` it into `main`, you'll need to make a `Pull Request` from your branch on Github
 - Your git master/czar will review your pull request and merge it into the `main` branch from there
 - After the feature has been merged, your whole group will pull down the new code to their branches with:
- ```sh
- git pull origin main
- ```
+  ```sh
+  git pull origin main
+  ```
 - Rinse and repeat, projects are never finished!
 
 That's all good and fine, but what if we run into `merge conflicts`???
