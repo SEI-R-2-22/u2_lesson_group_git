@@ -131,5 +131,10 @@ Cool! Now let's make some some changes.
 
 Go ahead and add, commit, and push those changes up to your branch. Now we'll practice making pull requests together.
 
+## Recap
+In this lesson, we learned about git workflows, in particular `feature branch workflow`s, which we'll be using for group projects in this cohort. We also covered how `merge conflicts` happen, what they look like, how to prevent them, and how to fix them. 
 
+## Resources
+- [Handling Merge Conflicts (Geeks for Geeks)](https://www.geeksforgeeks.org/merge-conflicts-and-how-to-handle-them/)
+- [Feature Branch Workflow (Atlassian)](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)
 
