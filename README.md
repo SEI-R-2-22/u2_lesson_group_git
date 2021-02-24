@@ -82,7 +82,7 @@ time adding in redundant changes.
 
 #### But what if there's already a merge conflict?
 
-<p align="center"><img height="300" src="https://res.cloudinary.com/practicaldev/image/fetch/s--7lBksXwA--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/bcd5ajtoc0g5dxzmpfbq.gif" alt="merge conflict"/></p>
+<img height="300" src="https://res.cloudinary.com/practicaldev/image/fetch/s--7lBksXwA--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/bcd5ajtoc0g5dxzmpfbq.gif" alt="merge conflict"/>
 
 
 In the event that you do end up with a merge conflict don't panic, they can be fixed. First let's break down what a merge conflict looks like.
