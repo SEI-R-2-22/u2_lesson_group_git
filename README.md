@@ -56,13 +56,16 @@ So to break things down, let's cover the steps of how we'll be using this workfl
 
 That's all good and fine, but what if we run into `merge conflicts`???
 
+___
 ### Preventing and Fixing Merge Conflicts
 
-<p align="center"><img height="400" src="https://ihatetomatoes.net/wp-content/uploads/2020/05/img_merge-conflict.png" alt="conflict" /></p>
+<img height="300" src="https://ihatetomatoes.net/wp-content/uploads/2020/05/img_merge-conflict.png" alt="conflict" />
 
 Oh no! There's a merge conflict and I don't know what to do!
 
-With your team, you'll often run into an issue with your pull requests where some members of your team have conflicting code, which will cause merge conflicts when your git czar is merging them into the main branch. First, let's talk about a general strategy of how to not end up there. Prevention is always the better option!
+With your team, you'll often run into an issue with your pull requests where some members of your team have conflicting code, which will cause merge conflicts when your git czar is merging them into the main branch. 
+
+First, let's talk about a general strategy of how to not end up there. Prevention is always the better option!
 
 ```
 1. Don't work on the same files at the same time. If you do, you'll probably end up
