@@ -65,15 +65,16 @@ Oh no! There's a merge conflict and I don't know what to do!
 With your team, you'll often run into an issue with your pull requests where some members of your team have conflicting code, which will cause merge conflicts when your git czar is merging them into the main branch. First, let's talk about a general strategy of how to not end up there. Prevention is always the better option!
 
 ```
-1. Don't work on the same files at the same time. If you do, you'll probably end up having to deal with
-merge conflicts.
+1. Don't work on the same files at the same time. If you do, you'll probably end up
+having to deal with merge conflicts.
 
-2. Communicate. Make sure everyone in your team knows who is working on what and when they are working on it.
+2. Communicate. Make sure everyone in your team knows who is working on what and 
+when they are working on it.
 
-3. Always pull down new features that have been merged into `main`. If one of your team members has merged in 
-a new feature, make sure to pull it down right away, so you'll have the most up-to-date version of the 
-entire project. That way, you won't spend time working on a feature that has already been completed or 
-waste time adding in redudant changes.
+3. Always pull down new features that have been merged into `main`. If one of your
+team members has merged in a new feature, make sure to pull it down right away, so 
+you'll have the most up-to-date version of the codebase. That way, you won't waste 
+time adding in redundant changes.
 ```
 
 In the event that you do end up with a merge conflict don't panic, they can be fixed. First let's break down what a merge conflict looks like.
