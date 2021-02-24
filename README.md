@@ -58,7 +58,7 @@ That's all good and fine, but what if we run into `merge conflicts`???
 
 ### Preventing and Fixing Merge Conflicts
 
-<p align="center"><img height="300" src="https://res.cloudinary.com/practicaldev/image/fetch/s--7lBksXwA--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/bcd5ajtoc0g5dxzmpfbq.gif" alt="merge conflict"/></p>
+<p align="center"><img height="400" src="https://ihatetomatoes.net/wp-content/uploads/2020/05/img_merge-conflict.png" alt="conflict" /></p>
 
 Oh no! There's a merge conflict and I don't know what to do!
 
@@ -76,6 +76,11 @@ team members has merged in a new feature, make sure to pull it down right away, 
 you'll have the most up-to-date version of the codebase. That way, you won't waste 
 time adding in redundant changes.
 ```
+
+#### But what if there's already a merge conflict?
+
+<p align="center"><img height="300" src="https://res.cloudinary.com/practicaldev/image/fetch/s--7lBksXwA--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/bcd5ajtoc0g5dxzmpfbq.gif" alt="merge conflict"/></p>
+
 
 In the event that you do end up with a merge conflict don't panic, they can be fixed. First let's break down what a merge conflict looks like.
 
