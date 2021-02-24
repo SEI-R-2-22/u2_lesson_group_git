@@ -22,6 +22,21 @@ Take a second to think about how we've been receiving and submitting homework in
 In actuality, we've been doing `git collaboration` all along! In the case of our homework, we've been using the `fork and pull request` method of collaboration.
 
 We'll be using the shared repository `feature branch` method of collaboration in this course. While this is the way we'll be collaborating in this course, there are other methods out there. Think of this method as our organization's style guide for collaboration.
+___
 
-### Feature Branches
+### Feature Branch Workflow
+ 
 ![](https://zepel.io/blog/content/images/2020/05/Feature-Branch-git-workflow-4.png)
+
+With a [feature branch workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow), we'll be sharing a single repository with a main branch and doing our work in separate branches before merging it into the main branch of the project. To create our own, separate branches for the project, we'll be using this command:
+
+```sh
+git checkout -b your-branch-name
+```
+
+> The -b flag tells the checkout command to create a new branch if one with that name doesn't already exist
+
+Let's take 5 minutes to read about [Checkout](https://www.atlassian.com/git/tutorials/using-branches/git-checkout).
+
+
+
