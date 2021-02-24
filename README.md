@@ -100,7 +100,11 @@ The `=======` line is the “center” of the conflict. All the content between 
 
 Alternatively, all content between the center and `>>>>>>> feature-branch` is content that is present in our merging branch.
 
-To resolve our merge conflict, we can **_manually remove the unnecessary part from any one of the branches_**, and only consider the content of the branch that is important for further use, along with removing the “conflict dividers” from our file. 
+To resolve our merge conflict, we can:
+- **manually remove the unnecessary part from any one of the branches**, and only consider the content of the branch that is important for further use, along with removing the “conflict dividers” from our file. 
+- Click on one of the options for accepting changes
+  - Choose Current Change if you don't want the new changes causing the conflict
+  - Choose Incoming Change if you do want the new changes that are causing the conflict
 
 Once the conflict has been resolved we can use the `git add` command to move the new changes to the staging area, and then `git commit` to commit the changes.
 
@@ -109,6 +113,23 @@ This fix can be done either in your text editor (VS Code) or from Github.
 ## Exercise
 Let's practice making our own branches and adding in some features!
 
+First you'll need to make a branch. Use `git checkout` to create your own branch named `yourFirstName-branch` in your cloned local repository. For example:
+
+```sh
+git checkout -b andre-branch
+```
+
+Cool! Now let's make some some changes.
+- In the `names` directory, add in a new .txt file with **your** first name as well. Example:
+  ```sh
+  touch andre.txt
+  ```
+- Now we'll add a little content to the file. Example:
+  ```sh
+  echo "I write clean, legible code" >> andre.txt
+  ```
+
+Go ahead and add, commit, and push those changes up to your branch. Now we'll practice making pull requests together.
 
 
 
