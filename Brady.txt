@@ -1,2 +1,0 @@
-Coding in binary takes a lot of effort.
-You have to do it bit by bit.

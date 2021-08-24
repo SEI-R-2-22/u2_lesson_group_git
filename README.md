@@ -8,13 +8,14 @@ In this exercise, we'll practice collaborating effectively as a team with git wo
 
 ## Getting Started
 
-- `Clone` this repository DO NOT `fork` it
+- `Clone` this repository. **DO NOT** `fork` it.
+- Buckle up.
 
 ## Instructions
 
 ### Git Collaboration
 
-One of the main advantages of being comfortable with `git` is that it allows you the ability to collaborate with teams through organizations and shared repositories hosted here on `Github`. `Git` is a language used for **Version Control**, which allows us to save _versioned_ copies of our project codebases as we add to them. Typically, we'll store these codebases on here on `Github`. However, `git` also allows for collaboration.
+One of the main advantages of being comfortable with `git` is that it allows you the ability to collaborate with teams through organizations and shared repositories hosted here on `Github`. `Git` is used for **Version Control**, which allows us to save _versioned_ copies of our project codebases as we add to them. Typically, we'll store these codebases on here on `Github`. However, `git` also allows for collaboration.
 
 Take a second to think about how we've been receiving and submitting homework in this course.
 
@@ -25,7 +26,7 @@ Take a second to think about how we've been receiving and submitting homework in
 
 In actuality, we've been doing `git collaboration` all along! In the case of our homework, we've been using the `fork and pull request` method of collaboration.
 
-We'll be using the central repository `feature branch` method of collaboration for our group projects in this course. While this is the way we'll be collaborating in this course, there are other methods out there. Think of this method as our organization's style guide for collaboration.
+We'll be using the central repository `feature branch` method of collaboration for our group projects in this course. While this is the way we'll be collaborating in this course, there are other methods out there.
 
 ---
 
@@ -59,15 +60,15 @@ Let's take 5 minutes to read about [Checkout](https://www.atlassian.com/git/tuto
 
 So to break things down, let's cover the steps of how we'll be using this workflow for our group projects:
 
-- Your group will choose a git czar/master to manage pull requests made on the central repository
-- Once the central project repository has been created, you'll need to add everone working on the project as a collaborator and you'll each `clone` the repository. Make sure NOT to `fork` it
+- Your group will choose a git czar/boss/lord/etc. to manage pull requests made on the central repository
+- Once the central project repository has been created, you'll need to add everyone working on the project as a collaborator and you'll each `clone` the repository. Make sure **NOT** to `fork` it
 - Next, within your local directory, you'll create a new branch for the project that you'll be working on, separate from `main`
   ```js
   git checkout -b my-branch
   ```
 - From there, you'll treat that branch as if it were your own project, adding commits and pushing your code to it
 - Finally, when you've completed a feature and are ready to `merge` it into `main`, you'll need to make a `Pull Request` from your branch on Github
-- Your git master/czar will review your pull request and merge it into the `main` branch from there
+- Your git czar/boss/lord/etc. will review your pull request and merge it into the `main` branch from there
 - After the feature has been merged, your whole group will pull down the new code to their branches with:
   ```sh
   git pull origin main
@@ -82,9 +83,9 @@ That's all good and fine, but what if we run into `merge conflicts`???
 
 <img height="300" src="https://ihatetomatoes.net/wp-content/uploads/2020/05/img_merge-conflict.png" alt="conflict" />
 
-Oh no! There's a merge conflict and I don't know what to do!
+*Oh no! There's a merge conflict and I don't know what to do!*
 
-With your team, you'll often run into an issue with your pull requests where some members of your team have conflicting code, which will cause merge conflicts when your git czar is merging them into the main branch.
+With your team, you'll often run into an issue with your pull requests where some members of your team have conflicting code, which will cause merge conflicts when you're merging them into the main branch.
 
 First, let's talk about a general strategy of how to not end up there. Prevention is always the better option!
 
@@ -116,7 +117,7 @@ Changing the contents of text file from new branch
 >>>>>>> feature-branch
 ```
 
-The `=======` line is the “center” of the conflict. All the content between the center and the `<<<<<<< HEAD` line is content that exists in the current branch master (main) which the HEAD ref is pointing to.
+The `=======` line is the “center” of the conflict. All the content between the center and the `<<<<<<< HEAD` line is content that exists in the current branch (main) which the HEAD ref is pointing to.
 
 Alternatively, all content between the center and `>>>>>>> feature-branch` is content that is present in our merging branch.
 
@@ -124,21 +125,21 @@ To resolve our merge conflict, we can:
 
 - **Manually remove the unnecessary part from any one of the branches**, and only consider the content of the branch that is important for further use, along with removing the “conflict dividers” from our file.
 - Click on one of the options for accepting changes
-  - Choose Current Change if you don't want the new changes causing the conflict
-  - Choose Incoming Change if you do want the new changes that are causing the conflict
+  - Choose *Current Change* if you ***don't*** want the new changes causing the conflict
+  - Choose *Incoming Change* if you ***do*** want the new changes that are causing the conflict
 
-Once the conflict has been resolved we can use the `git add` command to move the new changes to the staging area, and then `git commit` to commit the changes.
+Once the conflict has been resolved, we can use the `git add` command to move the new changes to the staging area, and then `git commit` to commit the changes.
 
-This fix can be done either in your text editor (VS Code) or from Github.
+This fix can be done either in your text editor (VS Code) or from the Github GUI.
 
 ## Exercise
 
 Let's practice making our own branches and adding in some features!
 
-First you'll need to make a branch. Use `git checkout` to create your own branch named `yourFirstName-branch` in your cloned local repository. For example:
+First you'll need to make a branch. Use `git checkout` to create your own branch named your first name in your cloned local repository. For example:
 
 ```sh
-git checkout -b andre-branch
+git checkout -b andre
 ```
 
 Cool! Now let's make some some changes.
@@ -147,9 +148,9 @@ Cool! Now let's make some some changes.
   ```sh
   touch andre.txt
   ```
-- Now we'll add a little content to the file. Example:
+- Now we'll add a little content to the file. We can edit the file in VS Code or from the command line like:
   ```sh
-  echo "I write clean, legible code" >> andre.txt
+  echo "Here is a line of text in the file." >> andre.txt
   ```
 
 Go ahead and add, commit, and push those changes up to your branch. Now we'll practice making pull requests together.
