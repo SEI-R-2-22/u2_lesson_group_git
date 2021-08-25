@@ -15,7 +15,7 @@ In this exercise, we'll practice collaborating effectively as a team with git wo
 
 ### Git Collaboration
 
-One of the main advantages of being comfortable with `git` is that it allows you the ability to collaborate with teams through organizations and shared repositories hosted here on `Github`. `Git` is used for **Version Control**, which allows us to save _versioned_ copies of our project codebases as we add to them. Typically, we'll store these codebases on here on `Github`. However, `git` also allows for collaboration.
+One of the main advantages of being comfortable with `git` is that it allows you the ability to collaborate with teams through organizations and shared repositories hosted here on `Github`. `Git` is used for **Version Control**, which allows us to save _versioned_ copies of our project codebases as we add to them. Typically, we'll store these codebases here on `Github`. However, `git` also allows for collaboration.
 
 Take a second to think about how we've been receiving and submitting homework in this course.
 
